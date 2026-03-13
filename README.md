@@ -39,7 +39,7 @@ Not every playlist uses the same channel IDs. If you find your guide is empty, y
 2.  Locate the `URLS = [...]` section at the top.
 3.  Add or replace the links with EPG sources that match your provider (ensure they are `.xml` or `.xml.gz` links).
 
-5.  ## ⚙️ Customizing your EPG Sources
+4.  ## ⚙️ Customizing your EPG Sources
 Not every playlist uses the same channel IDs. If you find your guide is empty, you may need to add or change the EPG sources.
 
 1.  Open `update_epg.py`.
