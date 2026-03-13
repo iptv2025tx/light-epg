@@ -44,17 +44,18 @@ Not every playlist uses the same channel IDs. If you find your guide is empty, y
 Not every playlist uses the same channel IDs. If you find your guide is empty, you may need to add or change the EPG sources.
 
 1.  Open `update_epg.py`.
-2.  Locate the `URLS = [...]` section at the top:
+2.  Locate the `URLS = [...]` section at the top: And edit it.
 
 ```python
 URLS = [
-    '[https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz)',
-    '[https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz)',
-    '[https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz)',
-    '[https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz)',
-    '[https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz)',
-    '[https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml](https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml)'
+    'https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
+    'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
 ]
+
 ```
 ---
 
