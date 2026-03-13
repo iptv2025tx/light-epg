@@ -1,0 +1,35 @@
+name: Update Light EPG
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Requests
+        run: pip install requests
+
+      - name: Run Script
+        run: python update_epg.py
+
+      - name: Commit and Push (Force)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add epgs/*
+          git commit --amend -m "Update EPG Data $(date)" || git commit -m "Update EPG Data $(date)"
+          git push --force
