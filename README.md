@@ -55,7 +55,7 @@ URLS = [
     '[https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz)',
     '[https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml](https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml)'
 ]
-
+```
 ---
 
 ## 🔗 How to use it in your IPTV Player
