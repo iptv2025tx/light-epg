@@ -24,6 +24,7 @@ URLS = [
     'https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
+    'https://raw.githubusercontent.com/BuddyChewChew/localnow-playlist-generator/refs/heads/main/epg.xml',
     'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
 ]
 
