@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Necessary for the force-push/amend logic
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,7 +23,9 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: |
+          pip install requests
+          pip install --upgrade pip
 
       - name: Run EPG Scraper
         env:
@@ -35,12 +37,14 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Add the generated files
-          git add epgs/*
+          # This ensures there is ALWAYS a change to commit
+          date -u > last_run.txt
           
-          # Amend the previous commit to keep the repo history clean (one commit only)
-          # If it's the first time running, it will just create a normal commit.
-          git commit --amend -m "Update EPG: $(date -u)" || git commit -m "Update EPG: $(date -u)"
+          # Add the epg and the heartbeat file
+          git add epgs/*.gz last_run.txt
           
-          # Force push to overwrite the history and keep the repo size tiny
+          # Commit using amend to keep the repo history from growing
+          git commit --amend -m "Fresh EPG Update: $(date -u)" || git commit -m "Fresh EPG Update: $(date -u)"
+          
+          # Force push to overwrite the old file with the new one
           git push --force
