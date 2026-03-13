@@ -34,7 +34,7 @@ To keep your playlist URL private, we use GitHub "Secrets":
 ### 4. Run it for the first time
 1.  Go to the **Actions** tab at the top of your GitHub page.
 2.  Select **Update Light EPG** from the sidebar.
-3.  Click the **Run workflow** dropdown and hit the button.
+3.  Click **Run workflow** dropdown and hit the button.
 4.  Once the green checkmark appears, a new folder named `epgs` will appear in your repo containing your fresh TV guide!
 
 ---
@@ -50,3 +50,11 @@ In **TiviMate**, **OTT Navigator**, or any IPTV player, add a new EPG source usi
 * **100MB Safety Stop:** GitHub has a strict 100MB limit per file. This script is hard-coded to **stop** if it cannot find your M3U filter. This prevents the script from accidentally pulling 400MB of data and breaking your repository.
 * **GZ Only:** The script only saves the `.gz` version to save space. Most modern players (TiviMate, Sparkle, etc.) handle this perfectly.
 * **Privacy:** Because you used a GitHub Secret, your playlist URL is never visible to the public.
+
+---
+
+## 📜 Credits & Support
+Created by **BuddyChewChew**.
+
+Join the community for updates and support:
+[Discord Server](https://discord.gg/fnsWGDy2mm)
