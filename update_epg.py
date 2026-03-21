@@ -18,10 +18,8 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 OUTPUT_FILE_GZ = os.path.join(OUTPUT_DIR, f"{NAME}-epg.xml.gz")
 
 URLS = [
-    'https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz',
-    'https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz',
-    'https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/all.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
