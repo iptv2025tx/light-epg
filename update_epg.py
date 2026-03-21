@@ -18,12 +18,26 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 OUTPUT_FILE_GZ = os.path.join(OUTPUT_DIR, f"{NAME}-epg.xml.gz")
 
 URLS = [
-    'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_PEACOCK1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz', 
+    'https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz', 
     'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz',
+    'https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz', 
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/all.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
+    'https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz', 
     'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
 ]
 
