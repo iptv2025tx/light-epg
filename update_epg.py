@@ -23,6 +23,7 @@ URLS = [
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/all.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
+    'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
     'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
 ]
 
