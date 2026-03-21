@@ -35,11 +35,10 @@ URLS = [
     'https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz', 
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/all.xml.gz',
-    'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
-    'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
-    'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml', 
+    'http://i.mjh.nz/Roku/all.xml.gz',
+    'http://i.mjh.nz/SamsungTVPlus/all.xml.gz',
     'https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz', 
-    'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
+    'http://i.mjh.nz/PlutoTV/all.xml.gz'
 ]
 
 def get_tvg_ids_from_remote_m3u():
