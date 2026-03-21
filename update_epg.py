@@ -37,6 +37,7 @@ URLS = [
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/all.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
+    'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml', 
     'https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz', 
     'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
 ]
