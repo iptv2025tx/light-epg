@@ -34,6 +34,7 @@ URLS = [
     'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz',
     'https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz', 
     'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz',
+    'http://drewlive2423.duckdns.org:8081/DrewLive/DrewLive.xml.gz', 
     'http://i.mjh.nz/Plex/all.xml.gz',
     'http://i.mjh.nz/Roku/all.xml.gz',
     'http://i.mjh.nz/SamsungTVPlus/all.xml.gz',
